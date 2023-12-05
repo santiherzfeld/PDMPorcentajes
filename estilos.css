@@ -1,0 +1,54 @@
+@font-face { font-family: Psilograph; font-weight: black; src: url('Psilograph-Black.ttf');}
+@font-face { font-family: Psilograph; font-weight: medium; src: url('Psilograph-Medium.ttf');}
+
+.barra {
+  position: fixed;
+  top: 984px;
+  left: 473px;
+}
+
+#barra-roja img {
+  object-fit: none;
+  height: 100%;
+  width: 0%;
+  -webkit-transition: width .5s ease-in-out;
+  -moz-transition: width .5s ease-in-out;
+  -o-transition: width .5s ease-in-out;
+  transition: width .5s ease-in-out;
+}
+
+#barra-roja {
+  position: fixed;
+  top: 984px;
+  left: 473px;
+  width: 974px;
+  height: 21px;
+}
+
+.porcentaje {
+  font-size: 86px;
+  font-family: Psilograph;
+  font-weight: black;
+}
+
+.porcentaje p span {
+  font-size: 86px;
+  font-family: Psilograph;
+  font-weight: medium;
+}
+
+#porcentaje-rojo {
+  position: fixed;
+  top: 854px;
+  left: 350px;
+  text-align: center;
+  color: #ffffff;
+}
+
+#porcentaje-azul {
+  position: fixed;
+  top: 854px;
+  left: 1520px;
+  text-align: center;
+  color: #ffffff;
+}
